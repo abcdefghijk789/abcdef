@@ -6,6 +6,6 @@ app.get("/", (req, res) => {
   res.send("first application running on cloud");
 });
 
-app.listen(8080, () => {
-  console.log(`server listen on 8080`);
+app.listen(80, () => {
+  console.log(`server listen on 80`);
 });
